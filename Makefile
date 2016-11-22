@@ -9,6 +9,9 @@ build:
 run:
 	ES_URI=$(ES_URI) python src/server.py
 
+run-socket:
+	python src/socket_server.py
+
 run-prod:
 	PRODUCTION=true ES_URI=$(ES_URI) gunicorn src.server:app -k gevent --pid gunicorn.pid --daemon
 

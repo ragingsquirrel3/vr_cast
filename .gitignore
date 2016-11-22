@@ -1,5 +1,6 @@
 *.DS_Store
 node_modules
+venv
 .tmp
 src/build
 npm-debug.log

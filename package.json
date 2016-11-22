@@ -54,9 +54,8 @@
   },
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --port 2992 --hot --inline",
-    "prebuild": "npm run clean && npm run copy",
-    "build": "cross-env NODE_ENV=production webpack -p --optimize-minimize",
-    "clean": "rimraf src/build && mkdir src/build",
+    "prebuild": "npm run copy",
+    "build": "NODE_ENV=production webpack -p --optimize-minimize",
     "copy": "cp -r src/public/. src/build",
     "test": "NODE_ENV=test mocha-webpack --webpack-config webpack.config-test.js \"src/js_src/**/*test.js\"",
     "test:watch": "NODE_ENV=test mocha-webpack --webpack-config webpack.config-test.js --watch \"src/js_src/**/*test.js\""
