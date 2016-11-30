@@ -1,8 +1,6 @@
-[![Build Status](https://travis-ci.org/alliance-genome/agr_prototype.svg?branch=master)](https://travis-ci.org/alliance-genome/agr_prototype)
+# VR Cast
 
-# Alliance of Genome Resources Prototype
-An initial prototype for the web portal of the Alliance of Genome
-Resources.
+~
 
 ## Prerequisites
 
@@ -11,14 +9,14 @@ Ensure you've installed [pip][1] and [virtualenv][2] and [nodejs][3].
 Create a virtualenv for isolating the python dependencies:
 
 ```bash
-mkdir -p ~/.virtulanevs/agr_prototype
+mkdir -p ~/.virtulanevs/vr_cast
 # The prototype currently requires Python2
-virtualenv -p python2 ~/.virtulanevs/agr_prototype
+virtualenv -p python2 ~/.virtulanevs/vr_cast
 ```
 
 ## Getting started
 ```bash
-source ~/.virtualenvs/agr_prototype/bin/activate
+source ~/.virtualenvs/vr_cast/bin/activate
 make build
 make run
 ```
@@ -26,7 +24,7 @@ make run
 To run tests
 
 ```bash
-source ~/.virtualenvs/agr_prototype/bin/activate
+source ~/.virtualenvs/vr_cast/bin/activate
 make tests
 ```
 
