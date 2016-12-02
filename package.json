@@ -11,6 +11,10 @@
     "url": "https://github.com/ragingsquirrel3/vr_cast"
   },
   "dependencies": {
+    "a-frame": "0.0.0",
+    "aframe": "^0.3.2",
+    "aframe-bmfont-text-component": "^0.1.4",
+    "aframe-react": "^3.4.0",
     "d3": "^3.5.17",
     "extract-text-webpack-plugin": "^1.0.1",
     "immutable": "^3.8.1",
